@@ -32,11 +32,11 @@ int main(){
 	/* All results excluding YA, YB */
 	cout << endl;
 	cout << "Results: " << endl;
-	cout << "p: " << test.get_p() << endl;
-	cout << "g: " << test.get_g() << endl;
-	cout << "XA: " << test.get_xa() << endl;
-	cout << "XB: " << test.get_xb() << endl;
-	cout << "K: " << test.get_k() << endl;
+	cout << "p (prime number): " << test.get_p() << endl;
+	cout << "g (primitive root): " << test.get_g() << endl;
+	cout << "XA (Secret key): " << test.get_xa() << endl;
+	cout << "XB (Secret key): " << test.get_xb() << endl;
+	cout << "K (Shared secret key): " << test.get_k() << endl;
 
 	return 0;
 }
